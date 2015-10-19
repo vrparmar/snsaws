@@ -1,0 +1,17 @@
+{
+  "name": "snsApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "0.12.2"
+  },
+  "dependencies": {
+    "nodejs-websocket": "~1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
