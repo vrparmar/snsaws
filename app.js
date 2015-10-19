@@ -4,7 +4,7 @@ var port = process.env.VCAP_APP_PORT || 8001;
 
 // Create a server connection
 var server = ws.createServer(function (conn) {
-    console.info("New connection");
+    console.info("New connection....");
 
     conn.on("text", function (str) {
         console.log("Received "+str)
