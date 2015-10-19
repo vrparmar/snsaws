@@ -1,6 +1,6 @@
 var ws = require("nodejs-websocket");
 
-var port = process.env.VCAP_APP_PORT || 8001;
+var port = process.env.PORT || 8001;
 
 // Create a server connection
 var server = ws.createServer(function (conn) {
